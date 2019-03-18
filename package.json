@@ -1,0 +1,50 @@
+{
+    "name": "efekrevisi-blog",
+    "version": "1.0.0",
+    "description": "EfekRevisi Blog Portal",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon --exec babel-node ssr-server.js",
+        "build": "next build",
+        "start": "NODE_ENV=production nodemon --exec babel-node ssr-server.js",
+        "export": "next export"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/irfanandriansyah1997/EfekRevisi-Blog.git"
+    },
+    "keywords": [
+        "react",
+        "next",
+        "js",
+        "RPC"
+    ],
+    "author": "irfan andriansyah <irfanandriansyah10@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/irfanandriansyah1997/EfekRevisi-Blog/issues"
+    },
+    "homepage": "https://github.com/irfanandriansyah1997/EfekRevisi-Blog#readme",
+    "dependencies": {
+        "express": "^4.16.4",
+        "isomorphic-unfetch": "^3.0.0",
+        "next": "^8.0.3",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.3.4",
+        "@babel/node": "^7.2.2",
+        "@babel/plugin-proposal-class-properties": "^7.3.4",
+        "@babel/plugin-proposal-decorators": "^7.2.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/plugin-transform-runtime": "^7.3.4",
+        "@babel/preset-env": "^7.3.4",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/preset-stage-2": "^7.0.0",
+        "nodemon": "^1.18.10",
+        "thrift": "^0.10.0"
+    }
+}
